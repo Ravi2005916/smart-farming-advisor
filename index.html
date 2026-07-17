@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Farming Advisor</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🌾 Smart Farming Advisor</h1>
+
+<label>Select Crop</label>
+
+<select id="crop">
+<option value="">Choose Crop</option>
+<option>Rice</option>
+<option>Cotton</option>
+<option>Tomato</option>
+<option>Maize</option>
+</select>
+
+<label>Select Pest</label>
+
+<select id="pest">
+<option value="">Choose Pest</option>
+<option>Stem Borer</option>
+<option>Brown Plant Hopper</option>
+<option>Aphids</option>
+<option>Leaf Spot</option>
+</select>
+
+<button onclick="recommend()">Recommend Pesticide</button>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
